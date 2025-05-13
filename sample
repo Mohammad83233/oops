@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        sample s1=new sample();
+        sample s2=new sample();
+        s1.a=10;
+        s2.a=20;
+        s1.b=30;
+        s2.b=60;
+        s1.display();
+        s2.display();
+        
+    }
+}
+class sample{
+    int a;
+    int b;
+    void display(){
+        System.out.println( b);
+        System.out.println( a);
+    }
+    
+}
