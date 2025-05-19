@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class StringManipulation{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the string");
+        String str=sc.next();
+        System.out.println("length:"+str.length());
+        System.out.println("the uppercase of string :" +str.toUpperCase());
+        System.out.println("the lowercase of string :" +str.toLowerCase());
+        System.out.println("enter the index to extract the charachter");
+        int i=sc.nextInt();
+        System.out.println("the character at "+i+"is :"+str.charAt(i));
+         System.out.println("enter the starting and ending for substring r");
+         int start=sc.nextInt();
+         int end=sc.nextInt();
+          System.out.println("the substring is :"+str.substring(start,end));
+        
+    }
+}
